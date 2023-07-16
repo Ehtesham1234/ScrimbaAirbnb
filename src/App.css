@@ -1,0 +1,71 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  background: #FFFFFF;
+  padding-left: 30px;
+  padding-top: 22px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.airbnb-logo{
+  height: 25.35px;
+  width: 82px;
+}
+.card-pic{
+  width: 176px;
+height: 235px;
+left: 33px;
+
+border-radius: 9px;
+}
+.grid-pic{
+    height: 232px;
+    width: 395px;
+    padding-top: 26px;
+    margin-left: 77px;
+    margin-right: 77px;
+}
+.title-of-exp{
+   height: 40px;
+   width: 347px;
+   margin-top:32px;
+   margin-left: 36px;
+   margin-right: 147px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 36px;
+   line-height: 110%;
+   color: #000000;
+}
+.para-of-exp{
+   height: 52px;
+   width: 320px;
+   margin-top: 16px;
+   margin-left: 36px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 110%;
+   color: #222222;
+}
+
+.whole-card-div{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 33px;
+  
+}
+
